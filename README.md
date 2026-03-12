@@ -2,7 +2,7 @@
 
 Resenhas sobre artigos de Engenharia de Software discutidos em Projeto de Software na PUC Minas.
 
-🌐 **Site:** https://bernardogomes25.github.io/Resenhas_PDS
+🌐 **Site:** https://bernardogomes25.github.io/pds-reviews
 
 📄 **Também é possível encontrar a versão em .pdf dos artigos na pasta "_pdfs".**
 
