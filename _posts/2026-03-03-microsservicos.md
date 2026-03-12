@@ -11,6 +11,8 @@ source: https://engsoftmoderna.info/cap7.html#microsservi%C3%A7os
 
 O capítulo 7 da obra de Marco Tulio Valente é voltado à arquitetura de software, e a seção 7.4 surge como a discussão sobre sistemas distribuídos modernos. O autor contextualiza o surgimento dos microsserviços não apenas como uma escolha tecnológica, mas como uma resposta à falta de agilidade dos sistemas monolíticos. Em um cenário de times ágeis e entregas contínuas, o monolito vira um "gargalo", onde o acoplamento excessivo e a burocracia no *deploy* impedem o crescimento da aplicação e da organização.
 
+---
+
 ### Pontos Principais
 
 O texto desmistifica o conceito, definindo microsserviços através de pilares fundamentais:
@@ -20,6 +22,8 @@ O texto desmistifica o conceito, definindo microsserviços através de pilares f
 * **Autonomia de Dados:** A seção 7.4.1 fala sobre o seguinte: microsserviços "puros" devem gerenciar seus próprios dados. O compartilhamento de um banco de dados único é apontado como um erro comum que anula os benefícios de independência e agilidade.
 * **Escalabilidade:** O padrão permite escalar horizontalmente apenas as partes críticas do sistema e possibilita que cada serviço utilize a *stack* tecnológica mais adequada para sua função (ex: um serviço em Python para IA e outro em Go para alta performance).
 
+---
+
 ### Desafios e "A Bala de Prata"
 
 O autor tem uma postura pragmática na seção 7.4.2, alertando que microsserviços não são uma solução universal. Ele destaca o custo da complexidade:
@@ -28,11 +32,15 @@ O autor tem uma postura pragmática na seção 7.4.2, alertando que microsservi�
 * **Consistência:** Passa a ser um desafio imenso garantir que os dados estejam íntegros em múltiplos bancos independentes.
 * **Observabilidade:** Monitorar e depurar um erro que atravessa dez serviços diferentes é mais difícil que em um monolito.
 
+---
+
 ### Opinião Crítica
 
 A abordagem do autor é extremamente clara. Em um mercado muitas vezes movido pelo *hype*, ele foca nos fundamentos. A maior vantagem do texto é tratar microsserviços como uma troca: ganha agilidade organizacional e escalabilidade técnica, mas paga com uma grande complexidade operacional.
 
 O texto também destaca que a decisão por microsserviços deve ser baseada na necessidade de escala de times e de negócio, e não apenas por "modernidade". Para muitos sistemas, o monolito bem estruturado continua sendo a escolha racional.
+
+---
 
 ### Conclusão
 
