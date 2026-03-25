@@ -7,13 +7,13 @@ source: https://dl.acm.org/doi/epdf/10.1145/361598.361623
 
 ## Resenha: Criteria for Modularization
 
-## Introdução
+### Introdução
 
 O texto começa com uma pergunta “simples”: como devemos dividir um sistema em partes menores (módulos)?. O autor observa que todo mundo concorda que "modularizar" é bom para diminuir o tempo de desenvolvimento e facilitar o entendimento do código. Porém, o que quase ninguém discutia na época eram os critérios usados para fazer esse corte. Para ilustrar isso, ele usa um exemplo de um sistema que organiza índices de palavras (KWIC) e mostra duas formas completamente diferentes de resolvê-lo.
 
 ---
 
-## Principais Ideias
+### Principais Ideias
 
 O ponto central que o Parnas defende é que a forma como a gente "corta" o bolo do software muda tudo no futuro. Ele compara duas modularizações para provar isso:
 
@@ -28,7 +28,7 @@ Parnas resume que o segredo de uma boa arquitetura é fazer uma lista de todas a
 
 ---
 
-## Crítica e Reflexão
+### Crítica e Reflexão
 
 Lendo o artigo hoje em dia, percebemos que o que Parnas defendia é o que chamamos modernamente de Encapsulamento e Baixo Acoplamento. É impressionante como, mesmo antes das linguagens modernas que facilitam isso (como Java ou TypeScript), ele já previa que a maior dificuldade de um software não é fazê-lo funcionar na primeira vez, mas sim conseguir alterá-lo depois de um ano.
 
@@ -36,6 +36,6 @@ Um ponto interessante é que ele admite que essa divisão "inteligente" pode ser
 
 ---
 
-## Conclusão
+### Conclusão
 
 O artigo é um choque de realidade sobre a nossa intuição de "fazer um fluxograma e começar a codar". Ele nos ensina que o papel do engenheiro de software não é apenas escrever código que a máquina entenda, mas desenhar uma estrutura que humanos consigam evoluir sem medo. Se a ideia é criar algo que dure e que não se torne um pesadelo para dar manutenção, começar listando o que é mais provável que mude no projeto e "esconder" essas incertezas dentro de módulos bem definidos é o melhor caminho.
